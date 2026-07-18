@@ -12,10 +12,10 @@ const PAGES = [
 
 const DESC_FR = {
   "index.html": "Maison SK est l’entrepreneur général de confiance pour la transformation de maisons centenaires et haut de gamme en chefs-d’œuvre. Agréée RBQ, basée à Montréal, Québec.",
-  "services.html": "Nous sommes une entreprise générale de construction, basée à Montréal, Québec, agréée par la RBQ, et cautionnée par l’APCHQ. Un service clé en main du début à la fin.",
+  "services.html": "Nous sommes une entreprise générale de construction, basée à Montréal, Québec, agréée par la RBQ, et cautionnée par le CESGM. Un service clé en main du début à la fin.",
   "projects.html": "Découvrez notre portfolio de projets réalisés, qu’il s’agisse d’améliorations à petite échelle ou de transformations complètes.",
   "contact.html": "Intéressé par une collaboration ? Remplissez un formulaire et nous vous contacterons dans les plus brefs délais.",
-  "about.html": "Entreprise générale de construction agréée RBQ, basée à Montréal, Québec, cautionnée par l’APCHQ — transformation de maisons centenaires et haut de gamme.",
+  "about.html": "Entreprise générale de construction agréée RBQ, basée à Montréal, Québec, cautionnée par le CESGM — transformation de maisons centenaires et haut de gamme.",
   "grey-avenue.html": "De janvier à avril 2024, Maison SK s’est vu confier une cuisine complète et quatre salles de bains à réaménager.",
   "avenue-laval.html": "Sur l’avenue Laval, Maison SK et Cave Studio ont réimaginé la salle de bain de notre client pour en faire un havre de paix et de chaleur.",
   "avenue-ethier.html": "De juin à septembre 2024, Maison SK a complètement transformé cette maison — planchers chauffants, maison intelligente, nouvelle cuisine et salles de bains.",

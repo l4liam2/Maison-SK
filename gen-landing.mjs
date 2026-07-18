@@ -54,7 +54,7 @@ const pages = [
     file: "century-home-renovation-montreal.html",
     titleEn: "Century Home Renovation in Montreal — Maison SK",
     titleFr: "Rénovation de maison centenaire à Montréal — Maison SK",
-    desc: "Century home renovation in Montreal by Maison SK — specialists in transforming old Montreal buildings while preserving their charm. RBQ-licensed, APCHQ-bonded.",
+    desc: "Century home renovation in Montreal by Maison SK — specialists in transforming old Montreal buildings while preserving their charm. RBQ-licensed, CESGM-bonded.",
     service: "Century home renovation",
     h1En: "Century home renovation in Montreal", h1Fr: "Rénovation de maison centenaire à Montréal",
     hero: "ga-04.jpg", heroAlt: "Renovated century home interior in Montreal by Maison SK",
@@ -209,7 +209,7 @@ ${header}
       <div class="reveal">
         <p class="pull-quote" data-fr="${p.introFr}">${p.introEn}</p>
         <p style="margin-top:1.6rem;color:var(--muted);max-width:34em" data-fr="${p.bodyFr}">${p.bodyEn}</p>
-        <p style="margin-top:1rem;color:var(--muted);max-width:34em" data-fr="Nous sommes une entreprise générale de construction, basée à Montréal, Québec, agréée par la RBQ, et cautionnée par l’APCHQ.">We are an RBQ-licensed general contracting company based in Montreal, Quebec, bonded through the APCHQ.</p>
+        <p style="margin-top:1rem;color:var(--muted);max-width:34em" data-fr="Nous sommes une entreprise générale de construction, basée à Montréal, Québec, agréée par la RBQ, et cautionnée par l’CESGM.">We are an RBQ-licensed general contracting company based in Montreal, Quebec, bonded through the CESGM.</p>
         <a class="btn btn--solid" style="margin-top:2.4rem" href="contact.html"><span data-fr="Planifier une visite">Schedule a visit</span>
           ${arrow}</a>
       </div>
