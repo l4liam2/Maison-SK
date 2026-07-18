@@ -1,0 +1,26 @@
+{
+  "name": "maison-sk-site",
+  "version": "1.0.0",
+  "description": "Maison SK — redesigned static site prototype",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "build": "node retrofit.mjs && node build-fr.mjs",
+    "gen:landing": "node gen-landing.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l4liam2/Maison-SK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/l4liam2/Maison-SK/issues"
+  },
+  "homepage": "https://github.com/l4liam2/Maison-SK#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "private": true
+}

@@ -9,12 +9,30 @@
   /* ---------- Header scroll state ---------- */
   var header = doc.querySelector(".header");
   var alwaysSolid = header && header.hasAttribute("data-solid");
+  var stickyCta = doc.querySelector(".sticky-cta");
   function onScroll() {
     if (!header) return;
     header.classList.toggle("header--solid", alwaysSolid || window.scrollY > 40);
+    if (stickyCta) stickyCta.classList.toggle("show", window.scrollY > 420);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
+
+  /* ---------- Hero parallax ---------- */
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var heroImg = doc.querySelector(".hero__media img");
+  if (heroImg && !reduceMotion) {
+    var ticking = false;
+    var drift = function () {
+      var y = Math.min(window.scrollY, window.innerHeight);
+      heroImg.style.transform = "translateY(" + y * 0.16 + "px) scale(1.08)";
+      ticking = false;
+    };
+    window.addEventListener("scroll", function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(drift); }
+    }, { passive: true });
+    drift();
+  }
 
   /* ---------- Mobile nav ---------- */
   var burger = doc.querySelector(".burger");
@@ -153,13 +171,32 @@
     try { localStorage.setItem(LANG_KEY, lang); } catch (e) {}
   }
 
+  /* When a dedicated alternate-language page exists (data-alt-url on <html>),
+     the toggle navigates to it instead of swapping strings in place. */
+  var altUrl = doc.documentElement.getAttribute("data-alt-url");
+  var pageLang = doc.documentElement.getAttribute("data-page-lang") || "en";
+
   doc.querySelectorAll(".lang__btn").forEach(function (b) {
-    b.addEventListener("click", function () { applyLang(b.getAttribute("data-lang")); });
+    b.addEventListener("click", function () {
+      var target = b.getAttribute("data-lang");
+      try { localStorage.setItem(LANG_KEY, target); } catch (e) {}
+      if (altUrl && target !== pageLang) { window.location.href = altUrl; return; }
+      if (!altUrl) applyLang(target);
+    });
   });
 
   var saved = "en";
   try { saved = localStorage.getItem(LANG_KEY) || "en"; } catch (e) {}
-  if (saved === "fr") applyLang("fr"); else applyLang("en");
+  if (altUrl) {
+    doc.querySelectorAll(".lang__btn").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-lang") === pageLang ? "true" : "false");
+    });
+    if (saved !== pageLang) window.location.replace(altUrl);
+  } else if (saved === "fr") {
+    applyLang("fr");
+  } else {
+    applyLang("en");
+  }
 
   /* ---------- Demo form (no backend in this local prototype) ---------- */
   var form = doc.querySelector(".js-contact-form");

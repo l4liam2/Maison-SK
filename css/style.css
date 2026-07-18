@@ -1,4 +1,111 @@
-/* ============================================================
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-400-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-400-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-500-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-500-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-400-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-400-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-500-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-500-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-600-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../assets/fonts/CormorantGaramond-600-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url(../assets/fonts/Outfit-300-600-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url(../assets/fonts/Outfit-300-600-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* ============================================================
    MAISON SK — Design system
    Editorial, quiet-luxury direction for a heritage renovation
    contractor. Serif display (Cormorant Garamond) echoes the
@@ -470,3 +577,72 @@ body.nav-open .mobile-nav { opacity: 1; visibility: visible; }
   .hero { min-height: 88svh; }
   .frame-offset::before { inset: 1rem -0.7rem -1rem 1rem; }
 }
+
+/* ---------- Process steps ---------- */
+
+.process { display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(1.2rem, 2vw, 2rem); margin-top: clamp(2.6rem, 5vw, 4rem); }
+.process__step { border-top: 1px solid var(--brass); padding-top: 1.4rem; }
+.process__num { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--brass-ink); display: block; }
+.process__step h3 { font-size: 1.35rem; margin: 0.5rem 0 0.6rem; }
+.process__step p { font-size: var(--fs-small); color: var(--muted); line-height: 1.65; }
+@media (max-width: 1020px) { .process { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px)  { .process { grid-template-columns: 1fr; } }
+
+/* ---------- Testimonial attribution ---------- */
+
+.quote cite {
+  display: block; margin-top: 1.6rem; font-style: normal;
+  font-family: var(--sans); font-size: 0.76rem; font-weight: 600;
+  letter-spacing: 0.2em; text-transform: uppercase; color: #C9A96A;
+}
+
+/* ---------- Scope tags ---------- */
+
+.tags { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.1rem; }
+.tag {
+  padding: 0.4rem 0.95rem; border: 1px solid var(--line); border-radius: 99px;
+  font-size: 0.7rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted);
+}
+.on-dark .tag, .proj-card .tag { border-color: rgba(250, 248, 243, 0.35); color: rgba(250, 248, 243, 0.8); }
+
+/* ---------- Form selects ---------- */
+
+.field select {
+  width: 100%; padding: 0.95rem 2.6rem 0.95rem 1.1rem;
+  font: 300 1rem/1.5 var(--sans); color: var(--ink);
+  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%2385683C' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 1rem center / 12px;
+  border: 1px solid var(--line); border-radius: 0; appearance: none; -webkit-appearance: none;
+}
+.field select:focus { outline: none; border-color: var(--brass); box-shadow: 0 0 0 3px rgba(165, 131, 79, 0.15); }
+
+/* ---------- FAQ accordion ---------- */
+
+.faq { max-width: 820px; }
+.faq details { border-top: 1px solid var(--line); }
+.faq details:last-of-type { border-bottom: 1px solid var(--line); }
+.faq summary {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1.5rem;
+  cursor: pointer; list-style: none; padding: 1.5rem 0.2rem;
+  font-family: var(--serif); font-size: var(--fs-h4); font-weight: 500; line-height: 1.25;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-family: var(--serif); font-size: 1.5em; line-height: 0.8; color: var(--brass-ink); transition: transform 0.35s var(--ease); flex: none; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding: 0 2.5rem 1.7rem 0.2rem; color: var(--muted); max-width: 60ch; }
+
+/* ---------- Sticky mobile CTA ---------- */
+
+.sticky-cta {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+  display: none; align-items: center; justify-content: center; gap: 0.9rem;
+  padding: 1.1rem 1.5rem calc(1.1rem + env(safe-area-inset-bottom));
+  background: var(--navy); color: var(--paper);
+  font-family: var(--sans); font-size: 0.8rem; font-weight: 600;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  transform: translateY(100%); transition: transform 0.45s var(--ease);
+  box-shadow: 0 -10px 30px rgba(16, 26, 36, 0.25);
+}
+.sticky-cta svg { width: 1.05rem; height: auto; }
+.sticky-cta.show { transform: none; }
+@media (max-width: 720px) { .sticky-cta { display: flex; } body.nav-open .sticky-cta { display: none; } }
